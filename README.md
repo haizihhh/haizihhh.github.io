@@ -1,2 +1,15 @@
-# haizihhh.github.io
-my web
+<html>
+<head>
+<title>计算机2104周国镇</title>
+</head>
+<body>
+<mark>
+<h2>计算机2104周国镇第一个html网页</h2>
+<hr>
+</mark>
+<ul>
+<li>班级：计算机2104(转专业补修的)</li>
+<li>姓名：周国镇</li>
+</ul>
+</body>
+</html>
