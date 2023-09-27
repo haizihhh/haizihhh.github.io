@@ -1,16 +1,31 @@
+<!doctype html>
 <html>
 <head>
-<title>计算机2104周国镇</title>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
-<body>
-<mark>
-<h2>计算机2104周国镇第一个html网页</h2>
-<hr>
-</mark>
-  <a href="two.html">　　　首页</a>
-<ul>
-<li>班级：计算机2104(补修的)</li>
-<li>姓名：周国镇</li>
-</ul>
+
+<body >
+    <title>周国镇的网站(国庆版）</title>
+    <h2>国庆祝福网页派发</h2>
+    <hr />
+    <p>尊敬的访客，欢迎您，这里是周国镇的国庆祝福网页派发系统，请在下面的文本框中输入你的名字获得你的国庆祝福网页吧！</p>
+    <input id="name" type="text" placeholder="请输入你的名字">
+    <button onClick="play()">立即获得</button>
+    <script language="javascript" type="text/javascript">
+    function play(){
+        var name = document.getElementById("name");
+        if(name.value=='周维娟'){
+            window.location.href="zwj.html";
+    }
+        else{
+            window.alert("很抱歉"+name.value+"（先生/小姐）：暂时没有查询到您的网页，您的网页可能正在制作中，具体详情请微信联系")
+        }
+    }
+    </script>
 </body>
 </html>
