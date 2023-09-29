@@ -10,19 +10,23 @@
 </head>
 
 <body >
+
     <div>
         <meta name="viewport" content="width=device-width">
     <h1>国庆祝福网页派发</h1>
     <hr />
-    <p><font size="4">尊敬的访客，欢迎您，这里是周国镇的国庆祝福网页派发系统，请在下面的文本框中输入你的名字获得你的国庆祝福网页吧！！</font></p>
+    <p><font size="4">尊敬的访客，欢迎您，这里是周国镇的国庆祝福网页派发系统，请在下面的文本框中输入你的名字获得你的国庆祝福网页吧！</font></p>
     <input id="name" type="text" placeholder="请输入你的名字">
-    <button onClick="play()">立即获得</button>
+    <input onClick="play()" value="立即获得" type="button">
         </div>
     <script language="javascript" type="text/javascript">
     function play(){
         var name = document.getElementById("name");
         if(name.value=='周维娟'){
             window.location.href="zwj.html";
+    }
+        if(name.value=='臧芷莹'){
+            window.location.href="zzy.html";
     }
         else{
             window.alert("很抱歉"+name.value+"（先生/小姐）：暂时没有查询到您的网页，您的网页可能正在制作中，具体详情请微信联系")
