@@ -22,12 +22,10 @@
     <script language="javascript" type="text/javascript">
     function play(){
         var name = document.getElementById("name");
-        if(name.value=='周维娟'){
-            window.location.href="zwj.html";
-    }
-        else if(name.value=='臧芷莹'){
-            window.location.href="zzy.html";
-    }
+        if(name.value=='吴冰雪'||name.value=='朱辰骏'||name.value=='杨雨诺'||name.value=='顾晨亮'||name.value=='瞿剑'||name.value=='俞程炜'||name.value=='谭明月'||name.value=='杨卓欣'||name.value=='胡锦林'||name.value=='韩依蕊'||name.value=='林琬茹'||name.value=='陈芳平'||name.value=='臧芷莹'||name.value=='周维娟'){
+            localStorage.setItem("name", name.value);
+            window.location.href="people.html"; 
+        }
         else{
             window.alert("很抱歉"+name.value+"（先生/小姐）：暂时没有查询到您的网页，您的网页可能正在制作中，具体详情请微信联系")
         }
